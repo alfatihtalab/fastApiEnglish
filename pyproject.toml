@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "fastapienglish"
+version = "0.1.0"
+description = ""
+authors = ["alfatihtalab <alfatihtalab7@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.74.1"
+uvicorn = "^0.17.5"
+DateTime = "^4.4"
+
+[tool.poetry.dev-dependencies]
+sqlmodel = "^0.0.6"
+psycopg2 = "^2.9.3"
+pydantic = "^1.9.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
